@@ -64,13 +64,12 @@ a {
     overflow: hidden;
     max-width: 290px;
     z-index: 9;
-    transition:left 0.5s;
+    transition: left 0.5s;
   }
-  
+
   .menuNav.showMenu {
     left: 0;
   }
-  
   
   .navBar button {
     background: transparent;
@@ -81,9 +80,9 @@ a {
     padding-top: 40%;
     display: block;
   }
+
   .navBar > ul li {
     border: 0;
     color: grey;
   } 
-  
 }
