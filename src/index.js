@@ -6,7 +6,7 @@ import About from './functionBased/pages/About';
 import NotMatch from './functionBased/pages/NotMatch';
 import Navbar from './functionBased/components/Navbar';
 
-// stylesheets
+// stylesheet
 import './functionBased/App.css';
 
 const rootElement = document.getElementById('root');
