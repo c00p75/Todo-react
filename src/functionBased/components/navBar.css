@@ -70,7 +70,7 @@ a {
   .menuNav.showMenu {
     left: 0;
   }
-  
+
   .navBar button {
     background: transparent;
     border: none;
@@ -84,5 +84,6 @@ a {
   .navBar > ul li {
     border: 0;
     color: grey;
-  } 
+  }
+
 }
