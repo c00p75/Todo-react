@@ -1,0 +1,88 @@
+#hamburger {
+  display: none;
+}
+
+.navBar {
+  position: relative;
+}
+
+.navBar button {
+  position: fixed;
+  left: 30px;
+  top: 30px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.active {
+  color: #3fffd2 !important;
+}
+
+.navBar > ul {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  list-style: none;
+  padding: 1%;
+  font-size: 0.9em;
+  background-color: darkcyan;
+}
+
+.navBar > ul li {
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+.navBar > ul li:last-child {
+  border: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  #hamburger {
+    display: block;
+  }
+
+  .menuNav {
+    overflow-y: scroll;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    background: darkcyan;
+    left: -100%;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    max-width: 290px;
+    z-index: 9;
+    transition: left 0.5s;
+  }
+
+  .menuNav.showMenu {
+    left: 0;
+  }
+
+  .navBar button {
+    background: transparent;
+    border: none;
+  }
+
+  .navBar ul {
+    padding-top: 40%;
+    display: block;
+  }
+
+  .navBar > ul li {
+    border: 0;
+    color: grey;
+  }
+}
