@@ -29,7 +29,7 @@ a {
 
 .navBar > ul {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 10px;
   list-style: none;
   padding: 1%;
