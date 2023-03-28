@@ -69,3 +69,7 @@ h1 {
   outline: none;
   border: none;
 }
+
+.input-submit:hover {
+  transform: scale(1.11);
+}
